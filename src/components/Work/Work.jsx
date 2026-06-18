@@ -67,7 +67,7 @@ export default function Work() {
             <div className='flex flex-col '>
               <div className='w-full flex justify-center bg-gray-900'>
                       <img src={isSelected.image} alt={isSelected.title} 
-                      className='lg:w-full w-[95%] object-contain rounded-xl shadow-2xl p-4'/>
+                      className='lg:w-full w-[95%] md:h-90 object-contain rounded-xl shadow-2xl p-4'/>
              
               </div>
               <div className='lg:p-8 p-6'>

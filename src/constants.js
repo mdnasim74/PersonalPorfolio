@@ -46,6 +46,7 @@ import spotify from "./assets/work_logo/spotify.png";
 import calculator from "./assets/work_logo/calculator.jpg"
 import airbnbclone from "./assets/work_logo/airbnbClone.jpg"
 import PersonalWebpage from "./assets/work_logo/PeronalWebpage.png"
+import zerodhaClone from "./assets/work_logo/zerodhaClone.png";
 
 export const SkillsInfo = [
   {
@@ -166,7 +167,7 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 1,
+      id: 0,
       title: "Airbnb Clone",
       description:
        "Built a full-stack Airbnb clone with user authentication (login/signup), property listings, search and filtering features, responsive UI, and backend integration for dynamic data management.",
@@ -175,8 +176,19 @@ export const SkillsInfo = [
       github: "https://github.com/mdnasim74/delta-project",
       webapp: "https://github.com/mdnasim74/delta-project",
     },
+    {
+      id: 1,
+      title: "Zerodha Clone",
+      description:
+        "Developed a responsive Zerodha clone using React.js with login and signup authentication, an interactive dashboard, reusable components, and a clean user-friendly interface to provide a smooth and seamless user experience across different devices.",
+
+      image: zerodhaClone,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/mdnasim74/ZerodhaClone",
+      webapp: "https://github.com/mdnasim74/ZerodhaClone",
+    },
      {
-      id: 8,
+      id: 2,
       title: "Spotify Clone",
       description:
         "Developed a responsive Spotify Clone using HTML, CSS and JavaScript with an interactive and user-friendly interface. Implemented music playback features including play, pause, and track controls while using reusable React components and React Hooks for dynamic rendering and state management.",
@@ -186,7 +198,7 @@ export const SkillsInfo = [
       webapp: "https://removeyourbg.netlify.app/",
     },
      {
-      id: 5,
+      id: 3,
       title: "A Simple Calculator",
       description:
         "Developed a responsive Calculator application using HTML, CSS, and JavaScript with a clean and interactive user interface. Implemented arithmetic operations such as addition, subtraction, multiplication, and division with real-time calculations. Applied JavaScript DOM manipulation and event handling to improve functionality and user experience.",
@@ -196,7 +208,7 @@ export const SkillsInfo = [
       webapp: "https://webversedigital.com/",
     },
     {
-      id: 2,
+      id: 4,
       title: "Personal Webpage",
       description:
         "Built a responsive personal webpage using HTML, CSS, and JavaScript to showcase skills, projects, and personal information with an interactive user interface. Designed a clean and modern layout with smooth navigation and interactive elements to enhance user experience. Implemented responsive design techniques to ensure compatibility across desktop, tablet, and mobile devices.",
