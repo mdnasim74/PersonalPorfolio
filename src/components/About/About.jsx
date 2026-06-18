@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from "react-type-animation"
 import Tilt from 'react-parallax-tilt'
-import ProfileImage from '../../assets/profile-pic.png'
+import ProfileImage from '../../assets/ProfileImage/picofme.png'
 
 const About = () => {
   return (
@@ -27,9 +27,9 @@ const About = () => {
 
             <TypeAnimation
               sequence={[
-                "Fullstack Developer",
+                "Front-End Devloper",
                 2000,
-                "Python Developer",
+                "Back-End Devloper",
                 2000,
                 "Coder",
                 2000,
@@ -46,7 +46,7 @@ const About = () => {
           </p>
           {/**Resume Button */}
 
-          <a href="https://drive.google.com/file/d/1s8zIOskU80HxDkgRzdIjMVCIIND39TSz/view?usp=drive_link"
+          <a href="https://drive.google.com/file/d/1AZmiO9LxgedULuTYYmNWU8zaX4hyX512/view"
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105'

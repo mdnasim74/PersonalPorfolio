@@ -48,7 +48,7 @@ export default function Footer() {
                          </a>
           </div>
           <div className='mt-2'>
-            <p className='text-gray-300 text-center font-semibold'>2026 Md Nasim Ansari.All rights reserved</p>
+            <p className='text-gray-300 text-center font-semibold'>©2026 Md Nasim Ansari.All rights reserved</p>
           </div>
       
     </section>
