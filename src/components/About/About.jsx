@@ -42,7 +42,7 @@ const About = () => {
 
           {/**About me  */}
           <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
-            I am a full-stack developer and skilled in both front-end and back0end development
+            Passionate CSE student and aspiring Full-Stack Developer with a strong interest in creating responsive and interactive web applications. Always learning, building projects, and improving problem-solving skills.
           </p>
           {/**Resume Button */}
 
